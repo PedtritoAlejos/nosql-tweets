@@ -30,16 +30,16 @@ pealejosb@ubunto:/opt/pealejosb/nosql-tweets$ npm start
 [nodemon] to restart at any time, enter `rs`
 [nodemon] watching: *.*
 [nodemon] starting `node app.js`
-Server corrienedo en puerto : 6666
+Server corriendo en puerto : 6666
 DB conectada
 ***************************************************************
----- INGRESANDO USUARIO CON E-MAIL UNICO (user_20200928103322@gmail.com ) ---
+---- INGRESANDO USUARIO CON E-MAIL UNICO (     user_20200928113148@gmail.com        ) ---
 ***************************************************************
 USUARIO A CREAR {
   name: 'goku',
   surnames: 'Son',
   password: '123456789',
-  email: 'user_20200928103322@gmail.com ',
+  email: '     user_20200928113148@gmail.com        ',
   avatar: 'https://i.pinimg.com/564x/a4/f7/ac/a4f7acf38a8e618a4371f4c86c68c8c2.jpg'
 }
 USUARIO DB : {
@@ -48,49 +48,50 @@ USUARIO DB : {
   biography: '',
   location: '',
   website: '',
-  _id: 5f71e622372e31374569325b,
+  _id: 5f71f3d4564bd65fb688b084,
   name: 'goku',
   surnames: 'Son',
   password: '123456789',
-  email: 'user_20200928103322@gmail.com',
-  birthdate: 2020-09-28T13:33:22.730Z,
-  createdAt: 2020-09-28T13:33:22.737Z,
-  updatedAt: 2020-09-28T13:33:22.737Z,
+  email: 'user_20200928113148@gmail.com',
+  birthdate: 2020-09-28T14:31:48.385Z,
+  createdAt: 2020-09-28T14:31:48.392Z,
+  updatedAt: 2020-09-28T14:31:48.392Z,
   __v: 0
 }
 ***************************************************************
 ***************************************************************
-    INGRESANDO USUARIO CON E-MAIL REPETIDO (user_20200928103322@gmail.com )  
+    INGRESANDO USUARIO CON E-MAIL REPETIDO (     user_20200928113148@gmail.com        )  
 ***************************************************************
-error  E11000 duplicate key error collection: tarea-01.users index: email_1 dup key: { : "user_20200928103322@gmail.com" }
+error  E11000 duplicate key error collection: tarea-01.users index: email_1 dup key: { : "user_20200928113148@gmail.com" }
 ***************************************************************
 ***************************************************************
----- TWEET INGRESADO DEL USUARIO CREADO CON ID (5f71e622372e31374569325b) ---
+---- TWEET INGRESADO DEL USUARIO CREADO CON ID (5f71f3d4564bd65fb688b084) ---
 ***************************************************************
 {
-  _id: 5f71e622372e31374569325d,
+  _id: 5f71f3d4564bd65fb688b086,
   userId: {
     avatar: 'https://i.pinimg.com/564x/a4/f7/ac/a4f7acf38a8e618a4371f4c86c68c8c2.jpg',
     banner: '',
     biography: '',
     location: '',
     website: '',
-    _id: 5f71e622372e31374569325b,
+    _id: 5f71f3d4564bd65fb688b084,
     name: 'goku',
     surnames: 'Son',
     password: '123456789',
-    email: 'user_20200928103322@gmail.com',
-    birthdate: 2020-09-28T13:33:22.730Z,
-    createdAt: 2020-09-28T13:33:22.737Z,
-    updatedAt: 2020-09-28T13:33:22.737Z,
+    email: 'user_20200928113148@gmail.com',
+    birthdate: 2020-09-28T14:31:48.385Z,
+    createdAt: 2020-09-28T14:31:48.392Z,
+    updatedAt: 2020-09-28T14:31:48.392Z,
     __v: 0
   },
   message: '¡Hola, mi nombre es Goku! ',
-  createdAt: 2020-09-28T13:33:22.758Z,
-  updatedAt: 2020-09-28T13:33:22.758Z,
+  createdAt: 2020-09-28T14:31:48.412Z,
+  updatedAt: 2020-09-28T14:31:48.412Z,
   __v: 0
 }
 ***************************************************************
+
 
 
 ```
