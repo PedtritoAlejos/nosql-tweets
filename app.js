@@ -33,7 +33,7 @@ const db = async () => {
 // ejecutar conexion db
 db();
 
-let email_time = `user_${moment().format("YYYYMMDDhmmss")}@gmail.com `;
+let  email_time = `     user_${moment().format("YYYYMMDDhmmss")}@gmail.com        `;
 
 let usuario = {
     name : 'goku',
@@ -105,5 +105,5 @@ usuarioRepetido.save( (error,usuarioDB) => {
 const port = process.env.PORT || 8000;
 
 app.listen(port,() =>{
-    console.log(`Server corrienedo en puerto : ${port}`);
+    console.log(`Server corriendo en puerto : ${port}`);
 });
