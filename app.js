@@ -13,7 +13,7 @@ require("dotenv").config();
 // app - expess
 const app = express()
 
-// conexión moderna
+// conexión  moderna
 
 const db = async () => {
     try {
